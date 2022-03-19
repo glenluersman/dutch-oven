@@ -18,7 +18,7 @@ function Nav(props) {
       <nav>
         <ul>
           <li>
-            <a href="#about-me">
+            <a className="about-me" href="#about-me">
                 About Me
             </a>
           </li>
