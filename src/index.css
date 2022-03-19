@@ -56,6 +56,14 @@ div .imgdiv {
   height: auto;
 }
 
+li {
+  list-style-type: none;
+}
+
+form {
+  text-align: center;
+}
+
 .imgdiv {
   max-width: 300px;
 }
@@ -111,9 +119,6 @@ div .imgdiv {
   padding-bottom: 30px;
 }
 
-form {
-  text-align: center;
-}
 
 .contact-form input,
 .contact-form textarea {
@@ -149,6 +154,20 @@ form {
 .contact-form button:hover {
   color: white;
   background: #333230;
+}
+
+.icons {
+  display: flex;
+  justify-content: left;
+}
+
+.icons li {
+  margin: 0 55px;
+}
+
+.label {
+  font-size: 75px;
+  color: black !important;
 }
 
 @media screen and (max-width: 480px) {
