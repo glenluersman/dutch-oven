@@ -64,6 +64,15 @@ form {
   text-align: center;
 }
 
+div a {
+  font-size: 20px;
+  color: black;
+}
+
+footer {
+  display: flex;
+}
+
 .imgdiv {
   max-width: 300px;
 }
@@ -82,6 +91,10 @@ form {
   margin: 75px;
 }
 
+.work {
+  margin: 75px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -94,24 +107,8 @@ form {
   text-align: center;
 }
 
-.feature {
-  position: absolute;
-  margin-left: 8px;
-  margin-top: 8px;
+.title {
   font-size: 25px;
-  color: white;
-  z-index: 1;
-  background-color: black;
-}
-
-.portfolio {
-  position: absolute;
-  font-size: 20px;
-  color: white;
-  margin-left: 8px;
-  margin-top: 8px;
-  z-index: 1;
-  background-color: black;
 }
 
 .contact {
@@ -162,7 +159,7 @@ form {
 }
 
 .icons li {
-  margin: 0 55px;
+  margin: 0 50px;
 }
 
 .label {
@@ -191,6 +188,10 @@ form {
   .contact-form button {
     width: 30%;
   }
+
+  .icons li {
+    margin: 0 10px;
+  }
 }
 
 @media screen and (max-width: 820px) {
@@ -202,5 +203,9 @@ form {
 
   .contact-form button {
     width: 30%;
+  }
+
+  .icons li {
+    margin: 0 30px;
   }
 }
