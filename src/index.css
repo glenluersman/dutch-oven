@@ -1,5 +1,6 @@
-* {
-  background-color: #fff;
+html {
+  background-image: url("./assets/images/background.jpg");
+  background-size: cover;
 }
 
 header {
@@ -7,14 +8,13 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: baseline;
-  background-color: #5e5a55;
+  background-color: #52eff528;
 }
 
 header h1 {
   font-size: 55px;
   color: black;
   margin-left: 25px;
-  background-color: #5e5a55;
 }
 
 header nav ul {
@@ -23,23 +23,24 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  background-color: #5e5a55;
 }
 
 header nav ul li {
   margin: 0 15px;
   font-size: 30px;
   color: black;
-  background-color: #5e5a55;
-}
-
-nav {
-  background-color: #5e5a55;
 }
 
 nav a {
-  background-color: #5e5a55;
   color: black;
+  text-decoration: none;
+}
+
+nav span {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
 }
 
@@ -65,12 +66,14 @@ form {
 }
 
 div a {
-  font-size: 20px;
+  padding: 0 25px;
+  font-size: 50px;
   color: black;
 }
 
 footer {
   display: flex;
+  justify-content: center;
 }
 
 .imgdiv {
@@ -91,6 +94,12 @@ footer {
   margin: 75px;
 }
 
+.about-me {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
 .work {
   margin: 75px;
 }
@@ -105,15 +114,36 @@ footer {
   justify-content: center;
   position: relative;
   text-align: center;
+  border: 2px solid black;
+  margin: 8px;
+  padding: 10px;
+  background-color: #52eff528;
 }
 
 .title {
-  font-size: 25px;
+  font-size: 35px;
+}
+
+.res {
+  text-align: center;
+}
+
+.link p {
+  font-size: 35px;
+}
+
+.link span {
+  font-size: 75px !important;
 }
 
 .contact {
   text-align: center;
   padding-bottom: 30px;
+}
+
+.form {
+  text-align: center;
+  font-size: 45px;
 }
 
 
@@ -140,7 +170,7 @@ footer {
 
 .contact-form button {
   border: none;
-  background: #5e5a55;
+  background: #018495;
   color: white;
   width: 15%;
   padding: 15px 0;
@@ -150,7 +180,7 @@ footer {
 
 .contact-form button:hover {
   color: white;
-  background: #333230;
+  background: #056d7a;
 }
 
 .icons {
@@ -165,6 +195,10 @@ footer {
 .label {
   font-size: 75px;
   color: black !important;
+}
+
+.navActive {
+  color: white;
 }
 
 @media screen and (max-width: 480px) {
