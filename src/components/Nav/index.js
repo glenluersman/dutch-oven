@@ -1,39 +1,58 @@
-import React, { useEffect } from 'react';
-import{ capitalizeFirstLetter } from "../../utils/helpers";
+import React from 'react';
 
 function Nav(props) {
   const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-  } = props;
+    portfolioSelected,
+    setPortfolioSelected,
+    contactSelected,
+    setContactSelected,
+    aboutSelected,
+    setAboutSelected,
+    resumeSelected,
+    setResumeSelected
 
-//   useEffect(() => {
-//     document.title = capitalizeFirstLetter(currentCategory.name);
-//   }, [currentCategory]);
+  } = props;
 
   return (
     <header>
-      <h1>Glen Luersman</h1>
+        <a className="name" href="/">
+        <h1>Glen Luersman</h1>
+        </a>
       <nav>
-        <ul>
-          <li>
-            <a className="about-me" href="#about-me">
+        <ul className="navLink">
+          <li className={`${aboutSelected && 'navActive'}`} onClick={
+              () => {
+                setAboutSelected(true)
+                setContactSelected(false)
+                setPortfolioSelected(false)
+                setResumeSelected(false)
+              }}>
                 About Me
-            </a>
           </li>
-          <li>
-            <span>Contact</span>
-          </li>
-          {categories.map((category) => (
-          <li className={`${currentCategory.name === category.name && 'navActive'}`} key={category.name}>
-            <span onClick={() => {
-                setCurrentCategory(category)
+          <li className={`${portfolioSelected && 'navActive'}`} onClick={() => {
+              setContactSelected(false)
+              setPortfolioSelected(true)
+              setResumeSelected(false)
+              setAboutSelected(false)
             }}>
-                {capitalizeFirstLetter(category.name)}
-            </span>
+            Portfolio
           </li>
-          ))}
+          <li className={`${contactSelected && 'navActive'}`} onClick={() => {
+              setContactSelected(true)
+              setPortfolioSelected(false)
+              setResumeSelected(false)
+              setAboutSelected(false)
+            }}>
+            Contact
+          </li>
+          <li className={`${resumeSelected && 'navActive'}`} onClick={() => {
+              setContactSelected(false)
+              setPortfolioSelected(false)
+              setResumeSelected(true)
+              setAboutSelected(false)
+            }}>
+            Resume
+          </li>
         </ul>
       </nav>
     </header>
