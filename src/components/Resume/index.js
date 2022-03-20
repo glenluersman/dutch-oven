@@ -6,7 +6,7 @@ function Resume() {
   return (
     <div className="res">
       <h2>Resume</h2>
-      <iframe title="resume" src={resume} width="850px" height="1130px"></iframe>
+      <iframe title="resume" src={resume}></iframe>
     </div>
   )
 }

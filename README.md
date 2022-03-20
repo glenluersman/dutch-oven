@@ -27,19 +27,20 @@
 
 ## <img id="about" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 40px">
 
-- 
-
-## <img id="installing" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/installing.png?raw=true" style="height: 40px">
-
-- 
+- React Portfolio is my portfolio created using react
 
 ## <img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 40px">
 
-- 
+- Navigate to `https://glenluersman.github.io/dutch-oven/` and you are presented with a my picture and a short bio about me. Notice that the `About Me` navigation title is highlighted. Clicking on the `Portfolio` navigation title will take you to six of my projects complete with titles, images, and icons that link to the deployed applications and the corresponding GitHub repositories. Notice how the `Portfolio` title is now highlighted. Next if you click on the `Contact` navigation title you will see a form you can use to contact me. Again notice how the `Contact` title is now highlighted.
+Last if you click on the `Resume` navigation title you will see my resume with a toolbar where you can download my resume. And I'm sure by now you have noticed that the `Resume` title is now highlighted.
 
 ## <img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px">
 
-- 
+- Node.js
+- React
+- Jsx
+- CSS
+- HTML
 
 ## <img id="authors" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/authors.png?raw=true" style="height: 40px">
 
@@ -51,8 +52,10 @@
 
 ## <img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px">
 
-<img style="margin: 0 0 15px 0" src="public/images/.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="src/assets/images/port1.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="public/images/.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="src/assets/images/port2.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="public/images/.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="src/assets/images/port3.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="src/assets/images/port4.PNG" ></a>

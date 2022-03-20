@@ -58,15 +58,20 @@ form {
   text-align: center;
 }
 
-.icon {
-  padding: 0 25px;
-  font-size: 50px;
-  color: black;
+iframe {
+  width: 850px;
+  height: 1130px;
 }
 
 footer {
   display: flex;
   justify-content: center;
+}
+
+.icon {
+  padding: 0 25px;
+  font-size: 50px;
+  color: black;
 }
 
 .name {
@@ -215,6 +220,10 @@ footer {
 
   header h1 {
     text-align: center;
+  }
+
+  iframe {
+    width: 350px;
   }
   
   .about {
