@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dutch-oven/static/css/main.870f8a2e.css",
-    "main.js": "/dutch-oven/static/js/main.431aabfd.js",
+    "main.css": "/dutch-oven/static/css/main.8ee5a5bf.css",
+    "main.js": "/dutch-oven/static/js/main.3f26f704.js",
     "static/js/787.a2cb61a6.chunk.js": "/dutch-oven/static/js/787.a2cb61a6.chunk.js",
     "static/media/pizza-project.PNG": "/dutch-oven/static/media/pizza-project.f585bf0e1024dd072718.PNG",
     "static/media/background.jpg": "/dutch-oven/static/media/background.e3beb8a15b4f17fa50d5.jpg",
@@ -13,12 +13,12 @@
     "static/media/code-quiz.PNG": "/dutch-oven/static/media/code-quiz.4f93404b0375da2d32c0.PNG",
     "static/media/tech-blog.PNG": "/dutch-oven/static/media/tech-blog.d34c21c4f79c7fc3cf71.PNG",
     "index.html": "/dutch-oven/index.html",
-    "main.870f8a2e.css.map": "/dutch-oven/static/css/main.870f8a2e.css.map",
-    "main.431aabfd.js.map": "/dutch-oven/static/js/main.431aabfd.js.map",
+    "main.8ee5a5bf.css.map": "/dutch-oven/static/css/main.8ee5a5bf.css.map",
+    "main.3f26f704.js.map": "/dutch-oven/static/js/main.3f26f704.js.map",
     "787.a2cb61a6.chunk.js.map": "/dutch-oven/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.870f8a2e.css",
-    "static/js/main.431aabfd.js"
+    "static/css/main.8ee5a5bf.css",
+    "static/js/main.3f26f704.js"
   ]
 }
