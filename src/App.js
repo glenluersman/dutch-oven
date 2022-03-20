@@ -7,24 +7,53 @@ import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 
 function App() {
-  const [categories] = useState([
-    { name: 'portfolio' },
-    { name: 'resume' }
-]);
-const [currentCategory, setCurrentCategory] = useState(0);  
+  const [aboutSelected, setAboutSelected] = useState(true);
+  const [contactSelected, setContactSelected] = useState(false); 
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
+
 
   return (
     <div>
       <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
+        aboutSelected={aboutSelected}
+        setAboutSelected={setAboutSelected}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+        portfolioSelected={portfolioSelected}
+        setPortfolioSelected={setPortfolioSelected}
+        resumeSelected={resumeSelected}
+        setResumeSelected={setResumeSelected}
       ></Nav>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <ContactForm></ContactForm>
+        {aboutSelected ? (
+          <>
+            <About></About>
+          </>
+        ) : (
+          <></>
+        )}
+        {contactSelected ? (
+          <>
+            <ContactForm></ContactForm>
+          </>
+        ) : (
+          <></>
+        )}
+        {portfolioSelected ? (
+          <>
+            <Portfolio></Portfolio>
+          </>
+        ) : (
+          <></>
+        )}
+        {resumeSelected ? (
+          <>
+            <Resume></Resume>
+          </>
+        ) : (
+          <></>
+        )}
       </main>
       <Footer></Footer>
     </div>

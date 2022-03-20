@@ -11,7 +11,7 @@ import { FaGithubSquare } from "react-icons/fa";
 function Portfolio() {
   
   return (
-    <section id="work" className="work">
+    <section id="portfolio" className="work">
         <div>
             <h2>Portfolio</h2>
         </div>
@@ -20,10 +20,10 @@ function Portfolio() {
                 <p className="title">Troop 586</p>
                 <img src={troop586} alt="#" width="400" height="200" />
                 <br></br>
-                <a href="https://troop586.com">
+                <a className="icon" href="https://troop586.com">
                   <MdOutlineChromeReaderMode />   
                 </a>
-                <a href="https://github.com/glenluersman/troop-586">
+                <a className="icon" href="https://github.com/glenluersman/troop-586">
                   <FaGithubSquare />
                 </a>
             </div>
@@ -31,10 +31,10 @@ function Portfolio() {
                 <p className="title">Sweet Sports Stuff</p>   
                   <img src={sweetSportsStuff} alt="#" width="400" height="200" />
                   <br></br>
-                <a href="https://arcane-reef-45830.herokuapp.com/">
+                <a className="icon" href="https://arcane-reef-45830.herokuapp.com/">
                 <MdOutlineChromeReaderMode />
                 </a>
-                <a href="https://github.com/glenluersman/sweet-sports-stuff">
+                <a className="icon" href="https://github.com/glenluersman/sweet-sports-stuff">
                 <FaGithubSquare />
                 </a>
             </div>
@@ -42,10 +42,10 @@ function Portfolio() {
                 <p className="title">Project Pizza</p>   
                 <img src={pizzaProject} alt="#" width="400" height="200" />
                 <br></br>
-                <a href="https://glenluersman.github.io/project-pizza/">
+                <a className="icon" href="https://glenluersman.github.io/project-pizza/">
                 <MdOutlineChromeReaderMode />
                 </a>
-                <a href="https://github.com/glenluersman/project-pizza">
+                <a className="icon" href="https://github.com/glenluersman/project-pizza">
                 <FaGithubSquare />
                 </a>
             </div>    
@@ -53,10 +53,10 @@ function Portfolio() {
                 <p className="title">Tech Blog</p>
                 <img src={techBlog} alt="#" width="400" height="200" />
                 <br></br>
-                <a href="https://glenluersman.github.io/tech-blog/">
+                <a className="icon" href="https://glenluersman.github.io/tech-blog/">
                 <MdOutlineChromeReaderMode />
                 </a>
-                <a href="https://github.com/glenluersman/tech_blog">
+                <a className="icon" href="https://github.com/glenluersman/tech_blog">
                 <FaGithubSquare />
                 </a>
             </div>
@@ -64,10 +64,10 @@ function Portfolio() {
                 <p className="title">Javascript Code Quiz</p>
                 <img src={javaScript} alt="#" width="400" height="200" />
                 <br></br>
-                <a href="https://glenluersman.github.io/javascript-code-quiz/">
+                <a className="icon" href="https://glenluersman.github.io/javascript-code-quiz/">
                 <MdOutlineChromeReaderMode />
                 </a>
-                <a href="https://github.com/glenluersman/javascript-code-quiz">
+                <a className="icon" href="https://github.com/glenluersman/javascript-code-quiz">
                 <FaGithubSquare />
                 </a>
             </div>
@@ -75,10 +75,10 @@ function Portfolio() {
                 <p className="title">Weather Dashboard</p>
                 <img src={weatherDashboard} alt="#" width="400" height="200" />
                 <br></br>
-                <a href="https://glenluersman.github.io/weather-dashboard/">
+                <a className="icon" href="https://glenluersman.github.io/weather-dashboard/">
                 <MdOutlineChromeReaderMode />
                 </a>
-                <a href="https://github.com/glenluersman/weather-dashboard">
+                <a className="icon" href="https://github.com/glenluersman/weather-dashboard">
                 <FaGithubSquare />
                 </a>
             </div>
