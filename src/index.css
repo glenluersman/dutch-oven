@@ -1,6 +1,7 @@
 html {
   background-image: url("./assets/images/background.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
 
 header h1 {
   font-size: 55px;
-  color: black;
+  color: white;
   margin-left: 25px;
 }
 
@@ -30,7 +31,7 @@ header nav ul li {
 }
 
 nav span {
-  color: black;
+  color: white;
   font-size: 32px;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
@@ -38,7 +39,7 @@ nav span {
 }
 
 h2 {
-  color: black;
+  color: white;
   font-size: 45px;
   text-align: center;
 }
@@ -71,7 +72,11 @@ footer {
 .icon {
   padding: 0 25px;
   font-size: 50px;
-  color: black;
+  color: white;
+}
+
+.icon:hover {
+  color: rgb(194, 191, 191);
 }
 
 .name {
@@ -92,14 +97,15 @@ footer {
 }
 
 .about div {
-  font-size: 20px;
+  font-size: 23px;
   margin: 75px;
+  color: white;
 }
 
 .navLink {
   font-size: 32px;
   font-weight: bold;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -120,6 +126,7 @@ footer {
   border: 2px solid black;
   margin: 8px;
   padding: 10px;
+  color: white;
   background-color: #52eff528;
 }
 
@@ -139,6 +146,7 @@ footer {
 .form {
   text-align: center;
   font-size: 45px;
+  color: white;
 }
 
 
@@ -154,7 +162,7 @@ footer {
   margin-top: 5px;
   margin: 5px auto 15px auto;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: rgb(194, 191, 191);
 }
 
 .contact-form input:focus,
@@ -166,7 +174,7 @@ footer {
 .contact-form button {
   border: none;
   background: #018495;
-  color: black;
+  color: white;
   width: 15%;
   padding: 15px 0;
   font-size: 20px;
@@ -182,6 +190,7 @@ footer {
 .contact-form label {
   font-size: 25px;
   font-weight: bold;
+  color: white;
 }
 
 .contact-form {
@@ -191,6 +200,7 @@ footer {
 .error-text {
   font-size: 25px;
   font-weight: bold;
+  color: white;
 }
 
 .icons {
@@ -202,15 +212,19 @@ footer {
   margin: 0 50px;
 }
 
+.label:hover {
+  color: rgb(194, 191, 191) !important;
+}
+
 .label {
   font-size: 75px;
-  color: black !important;
+  color: white !important;
 }
 
 .navActive {
   font-size: 32px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 @media screen and (max-width: 480px) {
