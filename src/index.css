@@ -138,6 +138,35 @@ footer {
   text-align: center;
 }
 
+.proficiency {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.front {
+  font-size: 30px;
+  color: white;
+}
+
+.back {
+  font-size: 30px;
+  color: white;
+}
+
+.front li {
+  list-style: disc;
+}
+
+.back li {
+  list-style: disc;
+}
+
+.doc {
+  text-align: center;
+}
+
 .contact {
   text-align: center;
   padding-bottom: 30px;
