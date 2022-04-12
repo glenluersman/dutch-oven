@@ -5,6 +5,12 @@ import { FaGithubSquare } from "react-icons/fa";
 function Project() {
   const [projects] = useState([
     {
+      name: 'Fire In The Hole',
+      link: 'https://murmuring-lake-91341.herokuapp.com/',
+      github: 'https://github.com/YourFunkyDad/Hot-Sauce',
+      image: require('../../assets/images/FireInTheHole.PNG')
+    },
+    {
       name: 'Troop 586',
       link: 'https://troop586.com',
       github: 'https://github.com/glenluersman/troop-586',
