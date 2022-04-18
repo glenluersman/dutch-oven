@@ -7,8 +7,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/glenluersman/dutch-oven.svg)](https://github.com/glenluersman/dutch-oven/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/glenluersman/dutch-oven.svg)](https://github.com/glenluersman/dutch-oven/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/glenluersman/react-portfolio.svg)](https://github.com/glenluersman/react-portfolio/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/glenluersman/react-portfolio.svg)](https://github.com/glenluersman/react-portfolio/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -31,7 +31,7 @@
 
 ## <img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 40px">
 
-- Navigate to `https://glenluersman.github.io/dutch-oven/` and you are presented with a my picture and a short bio about me. Notice that the `About Me` navigation title is highlighted. Clicking on the `Portfolio` navigation title will take you to six of my projects complete with titles, images, and icons that link to the deployed applications and the corresponding GitHub repositories. Notice how the `Portfolio` title is now highlighted. Next if you click on the `Contact` navigation title you will see a form you can use to contact me. Again notice how the `Contact` title is now highlighted.
+- Navigate to `https://glenluersman.github.io/react-portfolio/` and you are presented with a my picture and a short bio about me. Notice that the `About Me` navigation title is highlighted. Clicking on the `Portfolio` navigation title will take you to six of my projects complete with titles, images, and icons that link to the deployed applications and the corresponding GitHub repositories. Notice how the `Portfolio` title is now highlighted. Next if you click on the `Contact` navigation title you will see a form you can use to contact me. Again notice how the `Contact` title is now highlighted.
 Last if you click on the `Resume` navigation title you will see my resume with a toolbar where you can download my resume. And I'm sure by now you have noticed that the `Resume` title is now highlighted.
 
 ## <img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px">
