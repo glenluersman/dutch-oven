@@ -1,12 +1,10 @@
 html {
-  background-image: url("./assets/images/background.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: #333333;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: baseline;
 }
@@ -26,6 +24,7 @@ header nav ul {
 }
 
 header nav ul li {
+  cursor: pointer;
   margin: 0 15px;
 }
 
@@ -41,11 +40,13 @@ h2 {
   color: white;
   font-size: 45px;
   text-align: center;
+  margin: 50px;
 }
 
 div .imgdiv {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   height: auto;
 }
@@ -71,11 +72,11 @@ footer {
 .icon {
   padding: 0 25px;
   font-size: 50px;
-  color: white;
+  color: #111;
 }
 
 .icon:hover {
-  color: rgb(194, 191, 191);
+  color: #333333;
 }
 
 .name {
@@ -83,21 +84,27 @@ footer {
 }
 
 .imgdiv {
-  max-width: 300px;
+  max-width: 50%;
 }
 
-.imgdiv img {
-  width: 100%;
+.imgdiv  img {
+  width: 300px;
+  height: auto;
+  background-size: cover;
+  border-radius: 175px;
 }
 
 .about {
   display: flex;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about div {
   font-size: 23px;
-  margin: 75px;
+  text-align: center;
+  max-width: 50%;
+  margin: 50px;
   color: white;
 }
 
@@ -120,17 +127,34 @@ footer {
 
 .work-link {
   justify-content: center;
+  align-items: stretch;
   position: relative;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #111;
   margin: 8px;
   padding: 10px;
-  color: white;
-  background-color: #52eff528;
+  color: #333333;
+  background-color: white;
+  max-width: 40%;
+}
+
+.work-link img {
+  width: 100%;
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+
+.work-link img:hover {
+  transform: scale(1.1);
+}
+
+.description {
+  font-size: 20px;
 }
 
 .title {
   font-size: 35px;
+  margin: 40px 0 0 0 ;
 }
 
 .res {
@@ -177,6 +201,9 @@ footer {
   color: white;
 }
 
+.contact h2 {
+  margin: 0;
+}
 
 .contact-form input,
 .contact-form textarea {
@@ -240,6 +267,12 @@ footer {
   margin: 0 50px;
 }
 
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .label:hover {
   color: rgb(194, 191, 191) !important;
 }
@@ -299,5 +332,13 @@ footer {
 
   .icons li {
     margin: 0 30px;
+  }
+
+  .imgdiv img {
+    width: 100%;
+  }
+
+  .about div {
+    width: 100%;
   }
 }

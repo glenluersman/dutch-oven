@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import { FaRegEnvelope } from "react-icons/fa";
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email:'', message:''});
@@ -36,8 +37,14 @@ function ContactForm() {
   }
 
   return (
-    <section>
+    <section className='contact'>
       <h1 className="form">Contact me</h1>
+      <div className='center'>
+        <a href='mailto:glen.luersman@gmail.com'>
+          <span className="label"><FaRegEnvelope /></span>
+        </a>
+      </div>
+      <h2>glen.luersman@gmail.com</h2>
       <form id="contact-form" onSubmit={handleSubmit} className="contact-form">
         <div>
           <label htmlFor="name">Name:</label>

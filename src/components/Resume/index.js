@@ -35,7 +35,7 @@ function Resume() {
         </div>    
       </div>
       <div className="doc">
-        <iframe title="resume" src={resume}></iframe>
+        <a href="https://docs.google.com/document/d/13AXL_tseh6kHM43SHSs0A1jjrSFUBiJWwgMKqQLexKA/edit?usp=sharing"></a>
       </div>  
     </div>
   )

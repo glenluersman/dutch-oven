@@ -10,7 +10,8 @@ function About() {
         </div>
         <div>
             <h2>About Me</h2>
-            <p>I’m a Creative Fullstack Web Developer in training with a passion for learning and working outside of my comfort zone. I’m currently taking a Fullstack Web Developer Bootcamp through The Ohio State University. I’m looking for an opportunity to join a passionate team in order to contribute and help grow a company to its full potential.</p>
+            <p>Creative full stack web developer with a passion for learning and working outside comfort zone. Recently earned a certificate in full stack web development from The Ohio State University, enhancing my skills in responsive web design, JavaScript, React.js, Node.js, MongoDB and MySQL. Successfully developed an e-commerce website with 3 other collaborators that sells hot sauces of varying intensity. Passionate about creating life-enhancing user experiences and collaborating with others to develop meaningful mobile and web applications. Looking for an opportunity to join a passionate team in order to contribute and help grow the company to it’s full potential.
+            </p>
         </div>
     </section>
   )
