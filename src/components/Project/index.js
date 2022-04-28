@@ -53,9 +53,7 @@ function Project() {
     <>
     {projects.map((project, index) => (
         <div className="card" key={index}>
-          <a href={project.link}>
             <img className='image' src={project.image} alt={project.name} width="400" height="200" />
-          </a>
           <p className="title">{project.name}</p>
           <br></br>
           <p className='description'>{project.description}</p>

@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/docs/Resume.pdf";
+import { CgFileDocument } from "react-icons/cg";
 
 function Resume() {
 
@@ -7,6 +7,11 @@ function Resume() {
     <div>
       <div className="res">
         <h2>Resume</h2>
+      </div>
+      <div className="center">
+        <a href='https://drive.google.com/file/d/1VQQLf4urmFXBMxCbOotAlEAkTUfrVo4x/view?usp=sharing'>
+          <span className="label"><CgFileDocument /></span>
+        </a>
       </div>
       <div className="proficiency">
         <div className="front">
@@ -34,9 +39,6 @@ function Resume() {
             </ul>
         </div>    
       </div>
-      <div className="doc">
-        <a href="https://docs.google.com/document/d/13AXL_tseh6kHM43SHSs0A1jjrSFUBiJWwgMKqQLexKA/edit?usp=sharing"></a>
-      </div>  
     </div>
   )
 }
