@@ -8,7 +8,7 @@ function Portfolio() {
         <div>
             <h2>Portfolio</h2>
         </div>
-        <div className="container">
+        <div className='container'>
           <Project />
         </div>
     </section>
