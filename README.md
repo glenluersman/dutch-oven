@@ -54,10 +54,10 @@ Last if you click on the `Resume` navigation title you will see my resume with a
 
 Deployed URL: https://glenluersman.github.io/react-portfolio/
 
-<img style="margin: 0 0 15px 0" src="src/assets/images/port1.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="src/assets/images/react-port1.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="src/assets/images/port2.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="src/assets/images/react-port2.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="src/assets/images/port3.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="src/assets/images/react-port3.PNG" ></a>
 
-<img style="margin: 0 0 15px 0" src="src/assets/images/port4.PNG" ></a>
+<img style="margin: 0 0 15px 0" src="src/assets/images/react-port4.PNG" ></a>

@@ -16,7 +16,7 @@ function Nav(props) {
   return (
     <header>
         <a className="name" href="/">
-        <h1>Hello. I'm Glen Luersman.</h1>
+        <h1>Glen Luersman</h1>
         </a>
       <nav>
         <ul className="navLink">
